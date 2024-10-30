@@ -1,1 +1,73 @@
 
+
+#bg_2x {
+	left:515px;
+	top:22px;
+	width:454px;
+	height:227px;
+	background-image:url(../img/bg_2x.png);
+	background-size:454px 227px;
+}
+
+#c2_2x {
+	left:29px;
+	top:77px;
+	width:237px;
+	height:31px;
+	background-image:url(../img/c2_2x.png);
+	background-size:237px 31px;
+}
+
+#c4_2x {
+	left:27px;
+	top:77px;
+	width:432px;
+	height:73px;
+	background-image:url(../img/c4_2x.png);
+	background-size:432px 73px;
+}
+
+#c_2x {
+	left:27px;
+	top:77px;
+	width:393px;
+	height:73px;
+	background-image:url(../img/c_2x.png);
+	background-size:393px 73px;
+}
+
+#cta_2x {
+	left:27px;
+	top:176px;
+	width:157px;
+	height:40px;
+	background-image:url(../img/cta_2x.png);
+	background-size:157px 40px;
+}
+
+#ell_endAnim_2x {
+	left:30px;
+	top:29px;
+	width:35px;
+	height:22px;
+	background-image:url(../img/ell_endAnim_2x.png);
+	background-size:35px 22px;
+}
+
+#legal_2x {
+	left:30px;
+	top:236px;
+	width:541px;
+	height:9px;
+	background-image:url(../img/legal_2x.png);
+	background-size:541px 9px;
+}
+
+#logo_c_2x {
+	left:67px;
+	top:29px;
+	width:128px;
+	height:22px;
+	background-image:url(../img/logo_c_2x.png);
+	background-size:128px 22px;
+}
