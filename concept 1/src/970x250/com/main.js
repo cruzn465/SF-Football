@@ -68,12 +68,15 @@ function animate(){
     .to(ellipse2, .5, {scale:1,opacity:1, ease:Expo.easeOut},"ell_grow+=.2")
 
     // connect ellipse
-    .to(ellipse1, 0.5, {x:9, y:12, scale:.9, ease:Expo.easeIn},"conn-=.2")
-    .to(ellipse2, 0.5, {x:-11, y:-3, scale:1.1, ease:Expo.easeIn},"conn-=.2")
-    .to(ellipse3, 0.5, {x:3, y:-16, scale:1, ease:Expo.easeIn},"conn-=.2")
+    .to(ellipse1, 0.5, {x:10, y:13, scale:.9, ease:Expo.easeIn},"conn-=.2")
+    .to(ellipse2, 0.5, {x:-9, y:0, scale:1, ease:Expo.easeIn},"conn-=.2")
+    .to(ellipse3, 0.5, {x:5, y:-13, scale:.6,height:19, width:27,ease:Expo.easeIn},"conn-=.2")
     // ellipse disappears and standiong logo appears
     .to(ells, 0.1, {opacity:0,ease:Power4.easeOut},)
     .from(ell_endAnim_2x, .2, {opacity:0,ease:Power4.easeOut},"-=.1")
+    // logo copy slides in logo_c_2x
+    .from(logo_c_2x, 0.6, {x:-10, opacity:0,ease:Expo.easeIn},"-=.4")
+
 
     // copy animations
     .from(bg_2x, 1, {x:50, opacity:0,ease:Expo.easeIn},"bg-=.3")
