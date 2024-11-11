@@ -83,20 +83,20 @@ body { margin:0px 0px; padding:0px; }
 
 #c4_2x {
 	left:40px;
-	top:126px;
+	top:193px;
 	width:650px;
-	height:113px;
+	height:46px;
 	background-image:url(../img/c4_2x.png);
-	background-size:650px 113px;
+	background-size:650px 46px;
 }
 
 #c_2x {
 	left:40px;
 	top:125px;
 	width:594px;
-	height:113px;
+	height:58px;
 	background-image:url(../img/c_2x.png);
-	background-size:594px 113px;
+	background-size:594px 58px;
 }
 
 #cta_2x {
@@ -115,4 +115,22 @@ body { margin:0px 0px; padding:0px; }
 	height:10px;
 	background-image:url(../img/legal_2x.png);
 	background-size:645px 10px;
+}
+
+#c1_2x {
+	left:42px;
+	top:190px;
+	width:399px;
+	height:48px;
+	background-image:url(../img/c1_2x.png);
+	background-size:399px 48px;
+}
+
+#c3_2x {
+	left:44px;
+	top:126px;
+	width:575px;
+	height:46px;
+	background-image:url(../img/c3_2x.png);
+	background-size:575px 46px;
 }
