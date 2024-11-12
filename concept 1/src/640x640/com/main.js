@@ -67,10 +67,10 @@ function animate(){
     .to(ellipse3, .5, {scale:1,opacity:1, ease:Expo.easeOut},"ell_grow+=.1")
     .to(ellipse2, .5, {scale:1,opacity:1, ease:Expo.easeOut},"ell_grow+=.2")
     
-    // connect ellipse
-    .to(ellipse1, 0.4, {x:5, y:9, scale:1, ease:Expo.easeIn},"conn-=.2")
-    .to(ellipse2, 0.4, {x:-1, y:6, scale:1.1, ease:Expo.easeIn},"conn-=.2")
-    .to(ellipse3, 0.4, {x:2, y:-4, scale:.8, ease:Expo.easeIn},"conn-=.2")
+    // // connect ellipse
+    .to(ellipse1, 0.4, {x:10, y:18, scale:.9, ease:Expo.easeIn},"conn-=.2")
+    .to(ellipse2, 0.4, {x:-9, y:7, scale:.9, ease:Expo.easeIn},"conn-=.2")
+    .to(ellipse3, 0.4, {x:4, y:-10, scale:.8, ease:Expo.easeIn},"conn-=.2")
     // ellipse disappears and standiong logo appears
     .to(ells, 0.1, {opacity:0,ease:Power4.easeOut})
     .from(ell_endAnim_2x, .1, {opacity:0,ease:Expo.easeOut},"-=.1")
@@ -88,7 +88,7 @@ function animate(){
     .to([c2_2x], .5, {opacity:0},"+=1.7")
 
     // EF
-    .staggerFrom([c3_2x,c4_2x,c5_2x], .7, {x:-60,opacity:0,ease:Power4.easeIn},.3)
+    .staggerFrom([c3_2x,c4_2x], .7, {x:-60,opacity:0,ease:Power4.easeIn},.3)
     .from([cta_2x,legal_2x], .4, {opacity:0,ease:Power1.easeIn})
 
     

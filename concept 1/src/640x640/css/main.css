@@ -20,12 +20,12 @@ body { margin:0px 0px; padding:0px; }
 }
 
 #bg_2x {
-	left:125px;
-	top:97px;
-	width:174px;
-	height:153px;
+	left:163px;
+	top:220px;
+	width:477px;
+	height:420px;
 	background-image:url(../img/bg_2x.png);
-	background-size:174px 153px;
+	background-size:477px 420px;
 }
 
 .ellipses {
@@ -34,112 +34,104 @@ body { margin:0px 0px; padding:0px; }
 }
 
 .ellipse1 {
-    left: 21px;
-    top: 10px;
-    width: 12px;
-    height: 9px;
+    left: 29px;
+    top: 35px;
+    width: 27px;
+    height: 18px;
 }
 
 .ellipse2 {
-    left: 34px;
-    top: 22px;
-    width: 11px;
-    height: 8px;
+    left: 60px;
+    top: 60px;
+    width: 26px;
+    height: 18px;
 }
 
 .ellipse3 {
-    left: 16px;
-    top: 30px;
-    width: 15px;
-    height: 11px;
+    left: 22px;
+    top: 76px;
+    width: 30px;
+    height: 20px;
 }
 
+
 #ell_endAnim_2x {
-	left:19px;
-	top:19px;
-	width:27px;
-	height:18px;
+	left:29px;
+	top:53px;
+	width:48px;
+	height:32px;
 	background-image:url(../img/ell_endAnim_2x.png);
-	background-size:27px 18px;
+	background-size:48px 32px;
 }
 
 #logo_c_2x {
-	left:47px;
-	top:19px;
-	width:96px;
-	height:17px;
+	left:81px;
+	top:54px;
+	width:172px;
+	height:30px;
 	background-image:url(../img/logo_c_2x.png);
-	background-size:96px 17px;
+	background-size:172px 30px;
 }
 
 #c2_2x {
-	left:22px;
-	top:60px;
-	width:154px;
-	height:21px;
+	left:35px;
+	top:124px;
+	width:308px;
+	height:40px;
 	background-image:url(../img/c2_2x.png);
-	background-size:154px 21px;
+	background-size:308px 40px;
 }
 
 #c4_2x {
-	left:20px;
-	top:87px;
-	width:206px;
-	height:20px;
+	left:32px;
+	top:179px;
+	width:568px;
+	height:40px;
 	background-image:url(../img/c4_2x.png);
-	background-size:206px 20px;
+	background-size:568px 40px;
 }
 
 #c_2x {
-	left:20px;
-	top:60px;
-	width:256px;
-	height:25px;
+	left:32px;
+	top:125px;
+	width:511px;
+	height:49px;
 	background-image:url(../img/c_2x.png);
-	background-size:256px 25px;
+	background-size:511px 49px;
 }
 
 #cta_2x {
-	left:18px;
-	top:166px;
-	width:84px;
-	height:28px;
+	left:32px;
+	top:265px;
+	width:166px;
+	height:56px;
 	background-image:url(../img/cta_2x.png);
-	background-size:84px 28px;
+	background-size:166px 56px;
 }
 
 #legal_2x {
-	left:9px;
-	top:224px;
-	width:118px;
-	height:20px;
+	left:10px;
+	top:600px;
+	width:175px;
+	height:30px;
 	background-image:url(../img/legal_2x.png);
-	background-size:118px 20px;
+	background-size:175px 30px;
 }
 
 #c1_2x {
-	left:21px;
-	top:87px;
-	width:170px;
-	height:21px;
+	left:33px;
+	top:178px;
+	width:339px;
+	height:40px;
 	background-image:url(../img/c1_2x.png);
-	background-size:170px 21px;
+	background-size:339px 40px;
 }
 
 #c3_2x {
-	left:22px;
-	top:60px;
-	width:189px;
-	height:20px;
+	left:35px;
+	top:125px;
+	width:496px;
+	height:40px;
 	background-image:url(../img/c3_2x.png);
-	background-size:189px 20px;
-}
-
-#c5_2x {
-	left:22px;
-	top:114px;
-	width:129px;
-	height:20px;
-	background-image:url(../img/c5_2x.png);
-	background-size:129px 20px;
+	background-size:496px 40px;
 }
